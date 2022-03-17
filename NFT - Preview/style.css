@@ -1,0 +1,93 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217, 54%, 11%);
+  /* background-color: white; */
+  gap: 4.2rem;
+  height: 100vh;
+  font-family: "Outfit";
+  color: hsl(215, 51%, 70%);
+  font-size: 1.4rem;
+}
+
+.nft-component {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  background-color: hsl(216, 50%, 16%);
+  padding: 2rem;
+  border-radius: 10px;
+  width: 30rem;
+  margin: 0 auto;
+  box-shadow: 1.2rem 1.4rem 20px rgba(0, 0, 0, 0.7);
+}
+h1 {
+  color: white;
+  font-weight: 600;
+}
+
+.nft-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.data {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+}
+
+.eth {
+  color: hsl(178, 100%, 50%);
+}
+
+.author-name {
+  color: white;
+}
+
+/*  */
+
+.icon-clock {
+  stroke: hsl(215, 51%, 70%);
+  fill: hsl(215, 51%, 70%);
+}
+
+.data div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.author {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  border-top: 1px solid hsl(215, 32%, 27%);
+  padding-top: 1.2rem;
+}
+.author-image {
+  height: 4rem;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
