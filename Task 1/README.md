@@ -4,9 +4,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
+!["QR Component"](qr-component.png)
+
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [https://qr-component-07.netlify.app/]
 
 =
