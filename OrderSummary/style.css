@@ -22,7 +22,7 @@ body {
 }
 .order {
   max-width: 35rem;
-  margin: 0 auto;
+  margin: auto;
   border-radius: 12px;
   background-color: #fff;
   overflow: hidden;
