@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lexend Deca";
+  flex-direction: column;
+}
+
+.preview-component {
+  margin: 10rem auto;
+  padding: 0 4.2rem;
+  width: 100rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.component {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  padding: 4.8rem;
+  color: hsl(0, 0%, 95%);
+}
+h1 {
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+
+.text {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 1.5rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+.sedans .btn {
+  color: hsl(31, 77%, 52%);
+}
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+.suvs .btn {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.luxury .btn {
+  color: hsl(179, 100%, 13%);
+}
+.btn {
+  border: none;
+  padding: 1.2rem;
+  border-radius: 100px;
+  width: 70%;
+  margin-top: 4.2rem;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: inherit;
+  color: #fff;
+  box-shadow: inset 0 0 0 0.2rem #fff;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
