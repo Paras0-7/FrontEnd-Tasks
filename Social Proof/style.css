@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* overflow: hidden; */
+}
+
+body {
+  font-family: "Spartan";
+  background-image: url(images/bg-pattern-top-desktop.svg),
+    url(images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-size: 50%, 50%;
+  height: 100vh;
+}
+
+.container {
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 10rem;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* column-gap: 4.2rem; */
+  margin-bottom: 4rem;
+}
+
+.heading {
+  width: 78%;
+}
+
+h1 {
+  color: hsl(300, 43%, 22%);
+  font-size: 4.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.heading p {
+  font-size: 1.5rem;
+  color: hsl(303, 10%, 53%);
+  line-height: 1.5;
+  font-weight: 500;
+}
+.reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+.review {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  padding: 1.6rem;
+  background-color: hsl(300, 24%, 96%);
+  width: 75%;
+  border-radius: 12px;
+  /* justify-content: space-around; */
+}
+
+.review-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: hsl(300, 43%, 22%);
+}
+.review2 {
+  transform: translateX(10%);
+}
+.review3 {
+  transform: translateX(20%);
+}
+
+.review-stars {
+  display: flex;
+  gap: 1rem;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3.2rem;
+}
+
+.testimonial {
+  background-color: hsl(300, 43%, 22%);
+  padding: 3rem 2rem;
+  border-radius: 8px;
+}
+
+.profile {
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+  margin-bottom: 1.8rem;
+}
+
+.profile img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.name {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 0.4rem;
+}
+.status {
+  color: hsl(333, 80%, 67%);
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+blockquote {
+  color: white;
+  font-size: 1.3rem;
+  line-height: 1.7;
+}
+.testimonial2 {
+  transform: translateY(10%);
+}
+
+.testimonial3 {
+  transform: translateY(20%);
+}
