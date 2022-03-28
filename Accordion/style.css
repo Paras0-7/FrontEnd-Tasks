@@ -27,7 +27,7 @@ main {
   color: hsl(240, 6%, 50%);
   gap: 2.2rem;
   padding-left: 0;
-  max-width: 79rem;
+  max-width: 79.7rem;
   height: 40rem;
 }
 .accordions {
@@ -41,11 +41,14 @@ main {
   align-items: center;
   column-gap: 5rem;
   cursor: pointer;
+  transition: all 0.5s ease-in-out;
 }
 .img-box {
   position: relative;
 }
-
+.accordion {
+  transition: all 1s ease-in-out;
+}
 .box {
   position: absolute;
   top: 40%;
@@ -61,6 +64,7 @@ main {
 }
 .accordions div:hover {
   color: hsl(14, 88%, 65%);
+  transition: all 0.2s ease-in;
 }
 
 h1 {
@@ -78,14 +82,19 @@ p {
   font-size: 1.4rem;
   grid-column: 1 /-1;
   padding-top: 0;
+  transition: all 1s ease-in;
 }
 
 .bold {
   font-weight: bold;
   color: hsl(237, 12%, 33%);
 }
+p {
+  transition: all 0.5s ease-in;
+}
 .arrow {
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 /* **************************************** */
 .hidden {
