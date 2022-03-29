@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: hsl(210, 46%, 95%);
+  font-family: "Manrope";
+}
+
+.container {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 2rem 4.2rem rgba(0, 0, 0, 0.1);
+  border-radius: 9px;
+}
+.img-box {
+  background-image: url(images/drawers.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.text-box {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: hsl(217, 19%, 35%);
+}
+
+.text-box p {
+  font-size: 1.5rem;
+  color: hsl(214, 17%, 51%);
+  font-weight: 400;
+}
+
+.author strong {
+  color: hsl(217, 19%, 35%);
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.author-details {
+  display: flex;
+  align-items: center;
+}
+
+.author-details img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+
+  margin-right: 2rem;
+}
+
+/* .author {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+} */
+
+.arrow {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: hsla(212, 23%, 69%, 0.432);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  /* box-shadow: 0 2.4rem 6.3rem rgba(0, 0, 0, 3); */
+  cursor: pointer;
+}
+.popup {
+  position: absolute;
+  background-color: hsl(217, 19%, 35%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1rem 2rem;
+  width: 22rem;
+  border-radius: 9px;
+  z-index: 10;
+  right: -22%;
+  top: -90%;
+  box-shadow: 0 2rem 4.2rem rgba(0, 0, 0, 0.2);
+  transition: all 1s;
+}
+
+.popup::before {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: hsl(217, 19%, 35%);
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: -6px;
+  left: 45%;
+}
+
+.popup p {
+  letter-spacing: 1.5px;
+  font-weight: 700;
+}
+
+.hidden {
+  display: none;
+}
